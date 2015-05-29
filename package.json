@@ -1,0 +1,36 @@
+{
+  "name": "sbt-bin",
+  "version": "0.0.0",
+  "description": "Binary wrapper for SBT",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf vendor && node install.js && node cli.js help",
+    "postinstall": "node install.js"
+  },
+  "bin": {
+    "sbt": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-kinzal/sbt-bin"
+  },
+  "author": {
+    "name": "k-kinzal",
+    "email": "log@logn.in"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-kinzal/sbt-bin/issues"
+  },
+  "homepage": "https://github.com/k-kinzal/sbt-bin",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "binary"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.1",
+    "path": "^0.11.14"
+  }
+}
