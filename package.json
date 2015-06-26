@@ -30,7 +30,7 @@
     "binary"
   ],
   "dependencies": {
-    "bin-wrapper": "^3.0.1",
+    "bin-wrapper": "^3.0.2",
     "path": "^0.11.14"
   }
 }
