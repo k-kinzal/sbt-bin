@@ -4,7 +4,8 @@
   "description": "Binary wrapper for SBT",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf vendor && node install.js && node cli.js help",
+    "test": "rm -rf vendor && node install.js",
+    "sbt": "node cli.js version",
     "postinstall": "node install.js"
   },
   "bin": {
@@ -30,7 +31,6 @@
     "binary"
   ],
   "dependencies": {
-    "bin-wrapper": "^3.0.2",
-    "path": "^0.11.14"
+    "bin-wrapper": "^3.0.2"
   }
 }
