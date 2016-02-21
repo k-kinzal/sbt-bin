@@ -1,6 +1,6 @@
 {
   "name": "sbt-bin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Binary wrapper for SBT",
   "main": "index.js",
   "scripts": {
