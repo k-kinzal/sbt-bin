@@ -3,7 +3,7 @@
 var path = require('path');
 var BinWrapper = require('bin-wrapper');
 
-var version = '0.13.8';
+var version = '0.13.9';
 
 var bin = new BinWrapper({skipCheck: true});
 bin.src('https://dl.bintray.com/sbt/native-packages/sbt/' + version + '/sbt-' + version+ '.tgz', 'darwin');
